@@ -1,0 +1,163 @@
+.menu{
+	width:80%;
+	margin-left: 15%;
+	margin-top:1%;
+}
+ul.topmenu{
+    list-style-type: none;
+    margin-top:-7%;
+    margin-left:-0.6%;
+    margin-right:-0.6%;
+    margin-bottom: 0.5%;
+    padding:0;
+    overflow:hidden;
+    background-color: #333;
+    top:0;
+}
+li.topmenu{
+    float:left;
+}
+li.topmenu img{
+    margin-bottom: -10px;
+}
+li.topmenu a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 21px 25px;
+    text-decoration: none;
+}
+li.topmenu a:hover{
+    background-color: #111;
+        color:darkorange;
+}
+.active{
+    background-color: #4CAF50;
+}
+ul.sidemenu{
+    list-style-type: none;
+    margin-top:3%;
+    margin-left: -0.6%;
+    background-color:#333;
+    width: 5%;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+li.sidemenu a{
+    display:block;
+    padding-top:55%;
+    color: white;
+
+}
+li.sidemenu a:hover{
+    color: #4CAF50;
+}
+.text{
+    margin-top: -12%;
+    margin-left: 12%;
+    text-align: left;
+}
+
+
+body{
+    background: whitesmoke;
+    margin:0;
+}
+h1{
+    color: brown;
+}
+header{
+    background: #333;
+    padding: 25px;
+    margin: 0;
+    color:white;
+}
+header a{
+    float: right;
+    color: green;
+}
+header a:hover{
+    color: seagreen;
+}
+header .top-bottom a{
+    background: lightblue;
+    padding:6px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: -5%;
+}
+header .top-bottom a:hover{
+    background: cyan;
+}
+header .right{
+    font-size: 30px;
+    margin-left:20px;
+}
+.sub-menu{
+    /*padding-left:400px;*/
+   text-align:center;
+    margin-right: 40%;
+}
+.container{
+    background: cyan;
+    width: 30%;
+    border: 1px solid lightcyan;
+    border-radius: 10px;
+    margin-top: -21%;
+    margin-left: 33%;
+    padding: 15px;
+}
+.form-group{
+    padding:10px;
+}
+.form-group label{
+    margin-left: 5%;
+}
+input[type=text]{
+    margin-left: 5%;
+    padding:8px;
+    border: 1px solid aquamarine;
+    border-radius: 3px;
+}
+input[type=password],[type=tel],[type=number]{
+    margin-left:5%;
+    padding:8px;
+    border: 1px solid aquamarine;
+    border-radius: 3px;
+    width: 89%;
+}
+button{
+    margin-left:5%;
+    padding: 8px;
+    border: 1px solid whitesmoke;
+    border-radius: 3px;
+    width: 89%;
+}
+button:hover{
+    background: cyan;
+    color: seagreen;
+    cursor: pointer;
+}
+.Login-container{
+    background: cyan;
+    width: 30%;
+    border: 1px solid lightcyan;
+    border-radius: 20px;
+    margin-left: 34%;
+    padding: 15px;
+}
+.forgot_password{
+    text-align: right;
+    margin-top: 2%;
+    margin-right:8%;
+    margin-bottom: -8px;
+}
+.forgot_password a{
+    color: palevioletred;
+}
+.forgot_password a:hover{
+    color: white;
+}
+
+
